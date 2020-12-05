@@ -4,13 +4,3 @@
 * Theme colors:
      Brown: rgba(185, 122, 87, 1)
 
-      <div class="extra content">
-        <form class="ui reply form">
-          <div class="field">
-            <div class="ui fluid icon input">
-              <input type="text" placehodler="Enter a message...">
-              <i class="bordered inverted orange edit icon"></i>
-            </div>            
-          </div>
-        </form>
-      </div  
