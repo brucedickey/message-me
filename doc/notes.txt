@@ -4,5 +4,9 @@
 * Theme colors:
      Brown: rgba(185, 122, 87, 1)
 
-
+* Accounts:
+     Hilda, hilda
+     Freida, freida 
+     Zod, zod 
+     Cornwall, cornwall 
 
