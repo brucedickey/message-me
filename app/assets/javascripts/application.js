@@ -19,4 +19,8 @@
 
 $(document).on('turbolinks:load', function() {   // Is after DOM ready
   $('.ui.dropdown').dropdown();
+
+  $('.message .close').on('click', function() {
+    $(this).closest('.message').transition('fade');
+  });
 });
