@@ -58,4 +58,10 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # For development on a cloud provider, do one of the following to allow communication on 
+  # ActionCable. First option:
+  #config.action_cable.disable_request_forgery_protection = true
+  # The second option is to list allowed origins (root url of app):
+  #config.action_cable.allowed_request_origins = ['https://message_me_bd.herokuapp.com']
 end
