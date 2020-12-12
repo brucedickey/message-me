@@ -22,5 +22,4 @@ test:
 
 production:
   <<: *default
-  adapter: redis
-  database: db/production.redis
+  database: db/production.sqlite3
