@@ -63,5 +63,5 @@ Rails.application.configure do
   # ActionCable. First option:
   #config.action_cable.disable_request_forgery_protection = true
   # The second option is to list allowed origins (root url of app):
-  #config.action_cable.allowed_request_origins = ['https://message_me_bd.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://message-me-bd.herokuapp.com']
 end
