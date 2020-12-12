@@ -36,6 +36,8 @@ gem 'semantic-ui-sass'
 group :production do 
   # Use Redis adapter to run Action Cable in production
   gem 'redis', '>= 4.0'
+  # Postgres DB in Production
+  gem 'pg'
 end
 
 group :development, :test do
