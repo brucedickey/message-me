@@ -91,4 +91,10 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+    # For development on a cloud provider, do one of the following to allow communication on 
+  # ActionCable. First option:
+  #config.action_cable.disable_request_forgery_protection = true
+  # The second option is to list allowed origins (root url of app):
+  config.action_cable.allowed_request_origins = ['https://message-me-bd.herokuapp.com']
 end
