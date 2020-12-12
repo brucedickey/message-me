@@ -22,5 +22,6 @@ test:
 
 production:
   <<: *default
-  adapter: pg
-  database: db/production.pg
+  adapter: postgresql
+  database: message-me-bd
+  host: message-me-bd.herokuapp.com
